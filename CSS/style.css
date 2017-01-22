@@ -59,6 +59,10 @@ a:active {
 	width: 30%;
 }
 
+.width-40{
+	width: 47%;
+}
+
 .width-50{
 	width: 50%;
 }
@@ -246,6 +250,21 @@ a:active {
 	border: none;
 }
 
+/* flexbox rules */
+
+.flex{
+	display: flex;
+}
+
+.flex-around{
+	justify-content: space-around;
+}
+
+.flex-wrap{
+	flex-wrap: wrap;
+}
+
+
 /* Footer Rules */
 
 
@@ -268,7 +287,7 @@ a:active {
 
 #banner {
 	clear: both;
-	background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3),transparent), url("images/flower-bkgd.jpg");
+	background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3),transparent), url("../images/flower-bkgd.jpg");
 	background-size: cover;
 	min-height: 80vh;
 	position: relative;
@@ -282,7 +301,7 @@ a:active {
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-left: -10%;
-	background-image: url("images/banner-girl.png");
+	background-image: url("../images/banner-girl.png");
 	height: 90%;
 }
 
@@ -298,7 +317,7 @@ a:active {
 }
 
 #subscribe-cta {
-	background-image: url("images/wave-bkgd.jpg");
+	background-image: url("../images/wave-bkgd.jpg");
 	background-position: bottom;
 	margin-bottom: 10px;
 	width: 100%;
@@ -378,7 +397,7 @@ padding-top: 3vh;
 
 #banner {
 	clear: both;
-	background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3),transparent), url("images/flower-bkgd.jpg");
+	background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3),transparent), url("../images/flower-bkgd.jpg");
 	background-size: cover;
 	min-height: 80vh;
 	position: relative;
