@@ -12,13 +12,21 @@
 	<body>
 			<header class="clearfix">
 				<img class="left padding-medium" src="images/aloha-logo.svg" alt="Aloha Apparel logo" id="logo">
+				<nav class=" width-50 flex">
+					<ul id="navigation" class="uppercase font-family-sans-serif text-red space-around flex-wrap line-height-200-percent">
+						<li>about</li>
+						<li>shop</li>
+						<li>featured</li>
+						<li>updates</li>
+					</ul>
+				</nav>
 				<img class="right padding-medium" src="images/cart-icon.svg" alt="Shopping cart icon" id="cart">
 			</header>
 		<main>
 			<section>
 				<div id="banner">
-					<div class="background-image-fix"></div>
-					<div ID="banner-text" class="text-center text-white text-shadow-small-dimgrey z-index-2">
+					<div class="background-image-fix flex"></div>
+					<div ID="banner-text" class="text-center text-white text-shadow-small-dimgrey z-index-2 flex-center-xy">
 					<h5 class="font-family-sans-serif text-center uppercase"> New Collection</h5>
 					<h1 class="padding-medium font-family-serif">Spring/Summer 2016</h1>
 					</div>
@@ -28,10 +36,33 @@
 			<section>
 				<div id="CTA" class="text-center width-50 padding-top-7vh padding-bottom-7vh">				
 					<h2 class="font-family-serif text-black text-italic">Hand-Crafted <span class="text-bold no-italic">Styles<span></h2>
-					<p class="padding-3sides-no-bottom text-silver line-height-180-percent">Aloha Apparel Co. sells the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
+					<p class="padding-3sides-no-bottom text-silver line-height-180-percent">Aloha Apparel Co. sells the finest ready-to-travel clothing. Browse our current selection of products or sign up for updates below.</p>
 				</div>
 			</section>
-			<hr>
+			<section id="categories" class="uppercase text-center flex">
+				<div id="top-row" class="justify-between">
+					<div id="mens-category">
+						<p>mens</p>
+					</div>
+					<div id="trends-category">
+						<p>trends</p>
+					</div>
+					<div id="glasses-category">
+						<p>glasses</p>
+					</div>
+				</div>
+				<div id="bottom-row">
+					<div id="sale-category">
+						<p>sale</p>
+					</div>
+					<div id="bags-category">
+						<p>bags</p>
+					</div>
+					<div id="womens-category">
+						<p>womens</p>
+					</div>	
+				</div>
+			</section>
 			<section class="clearfix">
 				<div id="productroll" class="text-center clearfix margin-large">
 					<div ID="ProductsTitle" class="text-center">
@@ -41,24 +72,56 @@
 						<p class="uppercase text-silver font-family-sans-serif small-font padding-medium">Dresses</p>
 						<h4 class="text-red font-family-serif">Stretch Knit Dress</h4>
 						<p class="text-silver padding-medium font-family-sans-serif">$169.00</p>
+						<button id="add-to-cart" class="background-color-dk-grey font-family-sans-serif border-radius30 text-white no-border line-height-180-percent width-40 padding-sides-2em">Add to Cart</button>
 					</div>
 					<div class="width-25 left">
 						<img src="images/cotton-blue-shirt.jpg" alt="cotton blue shirt">
 						<p class="uppercase text-silver font-family-sans-serif small-font padding-medium">Shirts</p>
 						<h4 class="text-red font-family-serif">Cotton Blue Shirt</h4>
-						<p class="text-silver padding-medium font-family-sans-serif">$89.00
+						<p class="text-silver padding-medium font-family-sans-serif">$89.00</p>
+						<button id="add-to-cart" class="background-color-dk-grey font-family-sans-serif border-radius30 text-white no-border line-height-180-percent width-40 padding-sides-2em">Add to Cart</button>
 					</div>
 					<div class="width-25 left">
 						<img src="images/checked-stretch-dress.jpg" alt="checked stretch dress">
 						<p class="uppercase text-silver font-family-sans-serif small-font padding-medium">Dresses</p>
 						<h4 class="text-red font-family-serif">Checked Stretch Dress</h4>
 						<p class="text-silver padding-medium font-family-sans-serif">$129.00</p>
+						<button id="add-to-cart" class="background-color-dk-grey font-family-sans-serif border-radius30 text-white no-border line-height-180-percent width-40 padding-sides-2em">Add to Cart</button>
 					</div>
 					<div class="width-25 left">
 						<img src="images/blue-hipster-backpack.jpg" alt="blue backpack">
 						<p class="uppercase text-silver font-family-sans-serif small-font padding-medium">Bags</p>
 						<h4 class="text-red font-family-serif">Blue Hipster Backpack</h4>
 						<p class="text-silver padding-medium font-family-sans-serif">$69.00</p>
+						<button id="add-to-cart" class="background-color-dk-grey font-family-sans-serif border-radius30 text-white no-border line-height-180-percent width-40 padding-sides-2em">Add to Cart</button>
+					</div>
+					<div class="width-25 left">
+						<img src="images/blue-silk-dress.jpg" alt="blue silk dress">
+						<p class="uppercase text-silver font-family-sans-serif small-font padding-medium">Dresses</p>
+						<h4 class="text-red font-family-serif">Blue Silk Dress</h4>
+						<p class="text-silver padding-medium font-family-sans-serif">$99.00</p>
+						<button id="add-to-cart" class="background-color-dk-grey font-family-sans-serif border-radius30 text-white no-border line-height-180-percent width-40 padding-sides-2em">Add to Cart</button>
+					</div>
+					<div class="width-25 left">
+						<img src="images/cotton-yellow-tshirt.jpg" alt="cotton yellow tshirt">
+						<p class="uppercase text-silver font-family-sans-serif small-font padding-medium">Shirts</p>
+						<h4 class="text-red font-family-serif">Cotton Yellow T-shirt</h4>
+						<p class="text-silver padding-medium font-family-sans-serif">$29.00</p>
+						<button id="add-to-cart" class="background-color-dk-grey font-family-sans-serif border-radius30 text-white no-border line-height-180-percent width-40 padding-sides-2em">Add to Cart</button>
+					</div>
+					<div class="width-25 left">
+						<img src="images/denim-overall-shorts.jpg" alt="denim overall shorts">
+						<p class="uppercase text-silver font-family-sans-serif small-font padding-medium">Trends</p>
+						<h4 class="text-red font-family-serif">Denim Overall Shorts</h4>
+						<p class="text-silver padding-medium font-family-sans-serif">$79.00</p>
+						<button id="add-to-cart" class="background-color-dk-grey font-family-sans-serif border-radius30 text-white no-border line-height-180-percent width-40 padding-sides-2em">Add to Cart</button>
+					</div>
+					<div class="width-25 left">
+						<img src="images/pink-dotted-dress.jpg" alt="Pink Dotted Dress">
+						<p class="uppercase text-silver font-family-sans-serif small-font padding-medium">Dresses</p>
+						<h4 class="text-red font-family-serif">Pink Dotted Dress</h4>
+						<p class="text-silver padding-medium font-family-sans-serif">$79.00</p>
+						<button id="add-to-cart" class="background-color-dk-grey font-family-sans-serif border-radius30 text-white no-border line-height-180-percent width-40 padding-sides-2em">Add to Cart</button>
 					</div>
 				</div>	
 			</section>
