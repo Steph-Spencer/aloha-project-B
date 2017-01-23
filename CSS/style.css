@@ -71,6 +71,10 @@ a:active {
 	width: 65%;
 }
 
+.max-width-100{
+	max-width: 100%;
+}
+
 /* Background Rules */
 
 .background-image-fix{
@@ -345,6 +349,12 @@ a:active {
 	display: block;
 	font-size: 1.5rem;
 }
+
+#categories {
+	min-height: 50vh;
+	width: 100%;
+}
+
 
 #category-mens{
 	background-image: url("../images/mens-category.jpg");
