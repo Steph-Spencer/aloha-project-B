@@ -277,6 +277,14 @@ a:active {
 	align-items: center;
 }
 
+.align-items-center{
+	align-items: center;
+}
+
+.row{
+	flex-direction: row;
+}
+
 
 /* Footer Rules */
 
@@ -296,6 +304,18 @@ a:active {
 #cart {
 	height: 5%;
 	width: 5%;
+	position: relative;
+}
+
+#counter {
+	width: 2em;
+	height: 2em;
+	background-color: #ea5038;
+	border-radius: 50%;
+	border: none;
+	position: absolute;
+	top:21%;
+	right:21%;
 }
 
 #banner {
