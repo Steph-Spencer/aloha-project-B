@@ -2,6 +2,22 @@ body{
 	margin: 0
 }
 
+header{
+	display: flex;
+	position: fixed;
+	background: white;
+	width: 100%;
+	z-index: 73;
+}
+
+#navigation a{
+	color: #ea5038;
+}
+
+#navigation a:hover{
+	color: #000;
+}
+
 hr{
 	color: silver;
 }
@@ -415,6 +431,9 @@ a:active {
 }
 
 
+#email {
+	width: 60%;
+}
 #CTA {
 	display: block;
 	width: 50%;
