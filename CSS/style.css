@@ -7,7 +7,7 @@ header{
 	position: fixed;
 	background: white;
 	width: 100%;
-	z-index: 73;
+	z-index: 2;
 }
 
 #navigation a{
@@ -97,13 +97,13 @@ a:active {
 
 /* Background Rules */
 
-.background-image-fix{
+.background-image-fix {
 	width: 100%;
 	background-position: cover;
-	clear:both;
+	clear: both;
 	background-repeat: 0;
-}
 
+}
 .background-color-dk-grey{
 	background-color: #404040;
 }
@@ -278,6 +278,11 @@ a:active {
 	border: none;
 }
 
+.border-white{
+	box-sizing: border-box;
+	border: 3.5px solid #fff;
+}
+
 /* flexbox rules */
 
 .flex{
@@ -305,9 +310,6 @@ a:active {
 	align-items: center;
 }
 
-.row{
-	flex-direction: row;
-}
 
 
 /* Footer Rules */
@@ -348,6 +350,7 @@ a:active {
 	background-size: cover;
 	min-height: 80vh;
 	position: relative;
+	padding-top: 25vh;
 }
 
 #banner-girl {
@@ -363,7 +366,6 @@ a:active {
 }
 
 #banner-text {
-
 	width: 50%;
 	min-height: 40%;
 	display: block;
@@ -371,43 +373,56 @@ a:active {
 }
 
 #categories {
-	height: 200px;
+	min-height: 80vh;
 }
 
+#top-row {
+	display: flex;
+	flex-wrap: wrap;
+	width:100%;
+}
 
-#category-mens{
-	background-image: url("../images/mens-category.jpg");
+.gallery-item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 3rem;
+	letter-spacing: 1.2px;
+	height: 40vh;
 	background-position: center;
-	text-align: center;
+	background-size: cover;
+}
+
+#mens-category{
+	background-image: url("../images/mens-category.jpg");
 	width:50%;
 }
 
-#category-trends{
+#trends-category{
 	background-image: url("../images/trends-category.jpg");
-	text-align: center;
 	width: 25%;
+	height:40vh;
 }
 
-#category-glasses{
+#glasses-category{
 	background-image: url("../images/glasses-category.jpg");
-	text-align: center;
 	width: 25%;
 }
 
-#category-sale{
+#sale-category{
 	background-image: url("../images/sale-category.jpg");
-	text-align: center;
 	width: 25%;
 }
 
-#category-bags{
+#bags-category{
 	background-image: url("../images/bags-category.jpg");
-	text-align: center;
 	width: 25%;
 }
 
-#category-womens{
+#womens-category{
 	background-image: url("../images/womens-category.jpg");
+	width:50%;
 }
 
 #subscribe-cta {
