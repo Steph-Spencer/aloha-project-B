@@ -3,12 +3,12 @@ Second project for Red Academy Web Developer Professional program
 
 This project was created with HTML, CSS, JQuery, and JavaScript.
 
-It consists of a home page for a fashion brand with several sections, including:
+It consists of a home page for a fictional fashion brand with several sections, including:
 
 | sticky navigation bar
 | banner
 | call to action
-| a gallery of product categories
+| a responsive gallery of product categories created with Flexbox
 | featured products displayed in a jQuery carousel with an "add to cart" button that increments the counter in the cart icon at the top of the page.
 | a form to subscribe to the company's newsletter
 | a footer which displays contact information and social media icons
